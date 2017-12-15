@@ -465,7 +465,7 @@
     }
     // Hide the value label if necessary
         // It can't be hidden when it's a vertical text choise slider
-    if ([_formatProvider shouldHideValueLabel] && !([_formatProvider isVertical] && self.slider.textChoices))
+    if ([_formatProvider shouldHideValueLabel] && !([_formatProvider isVertical] && _slider.textChoices))
     {
         [self addConstraints:
              [NSLayoutConstraint constraintsWithVisualFormat:@"V:[_valueLabel(==0)]"
