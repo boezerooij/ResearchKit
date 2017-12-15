@@ -339,6 +339,11 @@ ORK_CLASS_AVAILABLE
 @property (strong, nullable) UIImage *minimumImage;
 
 /**
+ A Boolean value indicating whether the selected value should be hidden. (read-only)
+ */
+@property (assign, getter=shouldHideValueLabel) BOOL hideSelectedValue;
+
+/**
  The colors to use when drawing a color gradient above the slider. Colors are drawn such that
  lower indexes correspond to the minimum side of the scale, while colors at higher indexes in
  the array corresond to the maximum side of the scale. 
@@ -500,6 +505,11 @@ ORK_CLASS_AVAILABLE
 @property (strong, nullable) UIImage *minimumImage;
 
 /**
+ A Boolean value indicating whether the selected value should be hidden. (read-only)
+ */
+@property (assign, getter=shouldHideValueLabel) BOOL hideSelectedValue;
+
+/**
  The colors to use when drawing a color gradient above the slider. Colors are drawn such that
  lower indexes correspond to the minimum side of the scale, while colors at higher indexes in
  the array corresond to the maximum side of the scale.
@@ -589,6 +599,11 @@ ORK_CLASS_AVAILABLE
  A Boolean value indicating whether the scale is oriented vertically. (read-only)
  */
 @property (readonly, getter=isVertical) BOOL vertical;
+
+/**
+ A Boolean value indicating whether the selected value should be hidden. (read-only)
+ */
+@property (assign, getter=shouldHideValueLabel) BOOL hideSelectedValue;
 
 /**
  The colors to use when drawing a color gradient above the slider. Colors are drawn such that

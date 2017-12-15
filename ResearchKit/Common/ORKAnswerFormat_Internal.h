@@ -138,6 +138,7 @@ ORK_DESIGNATE_CODING_AND_SERIALIZATION_INITIALIZERS(ORKHeightAnswerFormat)
 - (UIImage *)minimumImage;
 - (nullable NSArray<UIColor *> *)gradientColors;
 - (nullable NSArray<NSNumber *> *)gradientLocations;
+- (BOOL)shouldHideValueLabel;
 
 @end
 
